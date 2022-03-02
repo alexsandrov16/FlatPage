@@ -8,7 +8,7 @@ use ErrorException;
 use Throwable;
 
 /**
- * undocumented class
+ * Debug Class
  */
 class ErrorHandler
 {

@@ -3,9 +3,7 @@ defined('FLATPAGE') || die;
 
 /**
  * @package FlatPage
- * @subpackage Gestor de arranque
- * @version 0.6.3-alpha
- * @author Alejandro Moreno
+ * @author alexsandrov16
  * @license MIT
  */
 

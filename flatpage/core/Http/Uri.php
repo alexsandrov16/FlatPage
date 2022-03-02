@@ -3,8 +3,6 @@ defined('FLATPAGE') || die;
 
 namespace FlatPage\Core\Http;
 
-//use Codev\Http\Psr\UriInterface;
-
 /**
  * @subpackage HTTP
  * 

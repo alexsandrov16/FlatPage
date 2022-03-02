@@ -3,8 +3,7 @@ defined('FLATPAGE') || die;
 
 /**
  * @package FlatPage
- * @version 0.6.3-alpha
- * @author Alejandro Moreno
+ * @author alexsandrov16
  * @license MIT
  */
 

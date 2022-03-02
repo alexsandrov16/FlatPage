@@ -6,7 +6,7 @@ namespace FlatPage\App\Controller;
 use FlatPage\Core\File\Json;
 
 /**
- * undocumented class
+ * Site Controller class
  */
 class Home 
 {

@@ -7,7 +7,7 @@ use Exception;
 use FlatPage\Core\Http\Uri;
 
 /**
- * @subpackage HTTP
+ * @subpackage Router
  * 
  * undocumented class
  */

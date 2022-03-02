@@ -3,15 +3,12 @@ defined('FLATPAGE') || die;
 
 namespace FlatPage\App\Controller;
 
-use FlatPage\App\Model\Menu;
-use FlatPage\App\Model\Sign;
-use FlatPage\App\Model\Users;
 use FlatPage\Core\App;
 use FlatPage\Core\Config\Config;
 use FlatPage\Core\File\Json;
 
 /**
- * undocumented class
+ * Dashboard Controller class
  */
 class Dashboard
 {
