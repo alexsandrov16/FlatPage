@@ -53,14 +53,14 @@ class HtmlContent
 
     public function image(array $file, String $caption, Bool $border = false, Bool $stretched = false, Bool $background = false)
     {
-        $arr = [];
+        $arr[]= 'fp-img';
         if ($border) $arr[] = 'border';
         if ($stretched) $arr[] = 'stretched';
         if ($background) $arr[] = 'background';
 
         $class = !empty($arr) ? $this->attClass($arr) : null;
 
-        return "<img $class src='" . $file['url'] . "'>";
+        return "<div $class><img src='" . $file['url'] . "' alt='$caption'></div>";
     }
 
     public function list(String $style, array $items)

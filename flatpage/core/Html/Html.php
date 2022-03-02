@@ -25,6 +25,10 @@ class Html
         return Header::favicon();
     }
 
+    public function lastUpdate()
+    {
+        return date ("d/m/Y", filemtime(FP_PAGES.'home.json'));
+    }
 
     public function blockContent($content)
     {

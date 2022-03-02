@@ -11,6 +11,7 @@ $page = App::themes();
 <head>
     <?= $page->metaTags($title, $description) ?>
     <?= $page->stylesheet('pico.min.css') ?>
+    <?=$page->stylesheet('block.css',true)?>
 </head>
 <style>
     body {
@@ -51,10 +52,11 @@ $page = App::themes();
             <?= $page->blockContent($content) ?>
         </div>
     </main>
-    <nav>
-    <div class="container-fluid">
+    <nav class="container-fluid">
         <ul><li>&copy;<?= date('Y'), ' ', $title ?></li></ul>
-    </div>
+        <ul>
+            <li><small>Última edición: <?=$page->lastUpdate()?></small></li>
+        </ul>
     </nav>
     <?= $page->script('script.js') ?>
     <script>
