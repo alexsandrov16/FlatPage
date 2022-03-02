@@ -54,9 +54,7 @@ $page = App::themes();
     </main>
     <nav class="container-fluid">
         <ul><li>&copy;<?= date('Y'), ' ', $title ?></li></ul>
-        <ul>
-            <li><small>Última edición: <?=$page->lastUpdate()?></small></li>
-        </ul>
+        <ul><li><small>Última edición: <?=$page->lastUpdate()?></small></li></ul>
     </nav>
     <?= $page->script('script.js') ?>
     <script>
