@@ -14,7 +14,9 @@ span.spoiler:hover {
     color: var(--color);
 }
 
-p{text-align: justify;}
+p {
+    text-align: justify;
+}
 
 /*Img*/
 html {
