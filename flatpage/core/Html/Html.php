@@ -10,11 +10,6 @@ class Html
 {
     private $header;
 
-    public function __construct()
-    {
-        //echo 'algo';
-    }
-
     public function metaTags($title, $description = null)
     {
         return new Header($title, $description);
