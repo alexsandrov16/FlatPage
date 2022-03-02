@@ -13,4 +13,4 @@ FlatPage es un gestor de contenidos basado en archivos escrito en [PHP](https://
 
 ## Licencia
 
-Ver [Licencia](https://github.com/alexsandrov16/flatpage/blob/main/LICENSE)
+Ver [Licencia](https://github.com/alexsandrov16/flatpage/blob/master/LICENSE)
