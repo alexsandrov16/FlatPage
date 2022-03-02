@@ -11,7 +11,7 @@ $page = App::themes();
 <head>
     <?= $page->metaTags($title, $description) ?>
     <?= $page->stylesheet('pico.min.css') ?>
-    <?=$page->stylesheet('block.css',true)?>
+    <?= $page->stylesheet('block.css', true) ?>
 </head>
 <style>
     body {
@@ -23,6 +23,7 @@ $page = App::themes();
     main {
         flex: 1 0 auto;
     }
+
     .darkmode {
         cursor: pointer;
     }
@@ -53,8 +54,12 @@ $page = App::themes();
         </div>
     </main>
     <nav class="container-fluid">
-        <ul><li>&copy;<?= date('Y'), ' ', $title ?></li></ul>
-        <ul><li><small>Última edición: <?=$page->lastUpdate()?></small></li></ul>
+        <ul>
+            <li>&copy;<?= date('Y'), ' ', $title ?></li>
+        </ul>
+        <ul>
+            <li><small>Última edición: <?= $page->lastUpdate() ?></small></li>
+        </ul>
     </nav>
     <?= $page->script('script.js') ?>
     <script>
@@ -66,4 +71,5 @@ $page = App::themes();
         });
     </script>
 </body>
+
 </html>
