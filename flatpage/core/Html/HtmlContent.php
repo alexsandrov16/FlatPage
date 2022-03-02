@@ -4,7 +4,7 @@ defined('FLATPAGE') || die;
 namespace FlatPage\Core\Html;
 
 /**
- * undocumented class
+ * HtmlContent
  */
 class HtmlContent
 {
@@ -30,14 +30,11 @@ class HtmlContent
     public function render()
     {
         $html = [];
-
         foreach ($this->blocks as $block) {
             if (in_array($block['type'], $this->methods)) {
                 $html[] = call_user_func_array([$this, $block['type']], $block['data']);
             }
         }
-
-
         return implode($html);
     }
 
