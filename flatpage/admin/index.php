@@ -305,7 +305,7 @@ use FlatPage\Core\App;
                     return response.text();
                 })
                 .then((data) => {
-                    if (data) {
+                    if (data === true) {
                         Message('success', 'Cambios salvados');
                     } else {
                         Message('danger', 'Se produjo un error al salvar los cambios');
@@ -357,10 +357,9 @@ use FlatPage\Core\App;
         btn_pass.addEventListener('click', () => {
             let formData = new FormData();
 
-            formData.append('user', user.value);
             formData.append('pass', pass.value);
 
-            let url = '<?= env('base_url') . '/admin/user' ?>';
+            let url = '<?= env('base_url') . '/admin/password' ?>';
             let init = {
                 method: 'POST',
                 body: formData,
@@ -373,7 +372,7 @@ use FlatPage\Core\App;
                 })
                 .then((data) => {
                     console.log(data);
-                    if (data) {
+                    if (data === true) {
                         Message('success', 'Contraseña actualizada');
                     } else {
                         Message('danger', 'Se produjo un error');
