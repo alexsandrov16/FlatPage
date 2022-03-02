@@ -1,4 +1,4 @@
-# <p align="center"><img src="https://github.com/alexsandrov16/FlatPage/blob/main/flatpage/admin/assets/img/logo.png" width="25">latPage CMS
+# <p align="center"><img src="https://github.com/alexsandrov16/flatpage/blob/master/flatpage/admin/assets/img/logo.png" width="25">latPage CMS
 
 FlatPage es un gestor de contenidos basado en archivos escrito en [PHP](https://www.php.net), pensado para servir páginas web estáticas de manera rápida y sencilla.
 
