@@ -87,7 +87,7 @@ $data = [
             "type" => "paragraph",
             "data" => [
                 "text" => "Para comenzar a editar tu sitio acceda al <a href='$url/admin'>panel
-                de administración</a>. Sus credenciales de inicio\nde sesión son <code class=\"spoiler\">admin</code>.",
+                de administración</a>. Sus credenciales de inicio\nde sesión son <span class=\"spoiler\">admin</span>.",
             ]
         ]
     ],
