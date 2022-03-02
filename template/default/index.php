@@ -66,5 +66,4 @@ $page = App::themes();
         });
     </script>
 </body>
-
 </html>
