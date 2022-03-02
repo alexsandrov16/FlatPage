@@ -305,7 +305,7 @@ use FlatPage\Core\App;
                     return response.text();
                 })
                 .then((data) => {
-                    if (data === true) {
+                    if (data == true) {
                         Message('success', 'Cambios salvados');
                     } else {
                         Message('danger', 'Se produjo un error al salvar los cambios');
@@ -371,8 +371,7 @@ use FlatPage\Core\App;
                     return response.text();
                 })
                 .then((data) => {
-                    console.log(data);
-                    if (data === true) {
+                    if (data == true) {
                         Message('success', 'Contraseña actualizada');
                     } else {
                         Message('danger', 'Se produjo un error');
