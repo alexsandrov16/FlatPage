@@ -3,7 +3,7 @@
     "\/admin":"Dashboard::index",
     "\/admin\/page":"Dashboard::page",
     "\/admin\/menu":"Dashboard::navigation",
-    "\/admin\/user":"Dashboard::user",
+    "\/admin\/password":"Dashboard::user",
     "\/admin\/settings":"Dashboard::setting",
     "\/admin\/logout": "Dashboard::logout"
 }
