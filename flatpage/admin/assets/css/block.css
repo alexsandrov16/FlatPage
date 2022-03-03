@@ -55,6 +55,15 @@ div.fp-img>img {
     border-radius: 0.25em;
 }
 
+ul.ordered{
+    list-style: decimal;
+}
+
+ul.unordered{
+    list-style: disc;
+}
+
+
 /* pantallas grandes */
 @media (min-width: 768px) {
     div.fp-img {
