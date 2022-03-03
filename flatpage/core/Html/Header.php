@@ -33,15 +33,16 @@ class Header
             $this->description = $description;
         }
 
+        $this->favicon = self::favicon();
+
         $this->meta_tags = [
             $this->ogTitle(env('title')),
             $this->ogDescription($this->description),
             $this->ogType('website'),
             $this->ogUrl(env('base_url')),
-            $this->ogImage(),
+            $this->ogImage(substr(strstr($this->favicon, 'href'), 6, -2)),
         ];
 
-        $this->favicon = self::favicon();
     }
 
     private function charset()
@@ -55,7 +56,7 @@ class Header
         return '<meta name="generator" content='.$this->generator.'>';
     }
 
-    private function keywords(String $keys)
+    private function keywords(String $keys = '')
     {
         return "<meta name='keyworks' content='$keys'>";
     }
@@ -104,11 +105,11 @@ class Header
             'content' => $url
         ];
     }
-    private function ogImage()
+    private function ogImage(String $path)
     {
         return [
             'property' => 'og:image',
-            'content' => null
+            'content' => $path
         ];
     }
 
@@ -131,7 +132,6 @@ class Header
             }
         }
         return "<link rel='shortcut icon' href='{$d_favicon}' type='image/x-icon'>";
-        
     }
 
     public function __toString()
@@ -143,7 +143,7 @@ class Header
         {$this->generator()}
         <title>{$this->title}</title>
         <meta name="description" content="{$this->description}">
-        {$this->keywords('algo')}
+        {$this->keywords(env('keywords'))}
         <!--Social-->
         {$this->socialTag()}
         <!--Favicon-->
