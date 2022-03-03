@@ -55,11 +55,11 @@ div.fp-img>img {
     border-radius: 0.25em;
 }
 
-ul.ordered{
+ul.ordered>li{
     list-style: decimal !important;
 }
 
-ul.unordered{
+ul.unordered>li{
     list-style: disc !important;
 }
 
