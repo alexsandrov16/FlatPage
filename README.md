@@ -12,7 +12,7 @@ Un gestor de contenidos basado en archivos escrito en [PHP](https://www.php.net)
 1. Descargue la [última versión](https://github.com/alexsandrov16/flatpage/archive/refs/heads/master.zip).
 2. Extraiga el archivo zip dentro del directorio público de su sitio.
 3. Verifique los permisos del directorio de instalación.
-4. Visite su dominio https://example.com/flatpage/
+4. Visite su dominio ```https://example.com/flatpage/```
 
 ## Contribuciones
 
