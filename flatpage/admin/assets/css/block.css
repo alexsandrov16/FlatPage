@@ -56,11 +56,11 @@ div.fp-img>img {
 }
 
 ul.ordered{
-    list-style: decimal;
+    list-style: decimal !important;
 }
 
 ul.unordered{
-    list-style: disc;
+    list-style: disc !important;
 }
 
 /* pantallas grandes */
