@@ -35,14 +35,12 @@ class Header
 
         $this->favicon = self::favicon();
 
-
-
         $this->meta_tags = [
             $this->ogTitle(env('title')),
             $this->ogDescription($this->description),
             $this->ogType('website'),
             $this->ogUrl(env('base_url')),
-            $this->ogImage(),
+            $this->ogImage(substr(strstr($this->favicon, 'href'), 6, -2)),
         ];
 
     }
@@ -107,11 +105,11 @@ class Header
             'content' => $url
         ];
     }
-    private function ogImage()
+    private function ogImage(String $path)
     {
         return [
             'property' => 'og:image',
-            'content' => null
+            'content' => $path
         ];
     }
 
