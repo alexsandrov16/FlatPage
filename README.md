@@ -7,6 +7,10 @@ FlatPage es un gestor de contenidos basado en archivos escrito en [PHP](https://
 - Apache 2.0 o superior (```mod_rewrite``` activo)
 - PHP 7.3 o superior (```mbstring```, ```json``` activo)
   
+## Contribuciones
+  
+  En caso de que esté interesado en contribuir puede hacer una solicitud de extracción en la rama ```developed```.  
+  
 ## Comunidad
 
 [Telegram](https://t.me/FlatPage)
