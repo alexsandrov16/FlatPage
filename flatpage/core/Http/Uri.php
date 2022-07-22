@@ -1,7 +1,7 @@
 <?php
-defined('FLATPAGE') || die;
-
 namespace FlatPage\Core\Http;
+
+defined('FLATPAGE') || die;
 
 /**
  * @subpackage HTTP

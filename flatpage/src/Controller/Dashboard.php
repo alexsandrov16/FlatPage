@@ -1,7 +1,7 @@
 <?php
-defined('FLATPAGE') || die;
-
 namespace FlatPage\App\Controller;
+
+defined('FLATPAGE') || die;
 
 use FlatPage\Core\App;
 use FlatPage\Core\Config\Config;

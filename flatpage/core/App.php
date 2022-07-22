@@ -1,7 +1,7 @@
 <?php
-defined('FLATPAGE') || die;
-
 namespace FlatPage\Core;
+
+defined('FLATPAGE') || die;
 
 use FlatPage\Core\Config\Config;
 use FlatPage\Core\Debug\ErrorHandler;

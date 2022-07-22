@@ -1,7 +1,7 @@
 <?php
-defined('FLATPAGE') || die;
-
 namespace FlatPage\Core\File;
+
+defined('FLATPAGE') || die;
 
 use Exception;
 

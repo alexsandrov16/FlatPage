@@ -1,7 +1,7 @@
 <?php
-defined('FLATPAGE') || die;
-
 namespace FlatPage\Core\Debug;
+
+defined('FLATPAGE') || die;
 
 use DirectoryIterator;
 use ErrorException;

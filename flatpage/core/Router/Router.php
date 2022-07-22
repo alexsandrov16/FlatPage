@@ -1,7 +1,7 @@
 <?php
-defined('FLATPAGE') || die;
-
 namespace FlatPage\Core\Router;
+
+defined('FLATPAGE') || die;
 
 use Exception;
 use FlatPage\Core\Http\Uri;

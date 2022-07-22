@@ -1,7 +1,7 @@
 <?php
-defined('FLATPAGE') || die;
-
 namespace FlatPage\Core\Config;
+
+defined('FLATPAGE') || die;
 
 use FlatPage\Core\File\Json;
 

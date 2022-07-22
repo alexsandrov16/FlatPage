@@ -1,7 +1,7 @@
 <?php
-defined('FLATPAGE') || die;
-
 namespace FlatPage\Core\Autoload;
+
+defined('FLATPAGE') || die;
 
 
 /**

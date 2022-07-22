@@ -1,7 +1,7 @@
 <?php
-defined('FLATPAGE') || die;
-
 namespace FlatPage\Core\Html;
+
+defined('FLATPAGE') || die;
 
 /**
  * HtmlContent
