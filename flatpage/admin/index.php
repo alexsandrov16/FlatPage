@@ -273,7 +273,7 @@ use FlatPage\Core\App;
             Message('warning', 'Cambie su contraseña');
         </script>
     <?php
-        setcookie('alert', null, time() - 60);
+        setcookie('alert', '', time() - 60);
     }
 
     if (env('root')) { ?>
