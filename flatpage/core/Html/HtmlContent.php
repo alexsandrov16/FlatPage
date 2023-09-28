@@ -43,9 +43,9 @@ class HtmlContent
         return "<p>$text</p>";
     }
 
-    public function header(String $text, Int $lavel)
+    public function header(String $text, Int $level)
     {
-        return "<h$lavel>$text</h$lavel>";
+        return "<h$level>$text</h$level>";
     }
 
     public function image(array $file, String $caption, Bool $border = false, Bool $stretched = false, Bool $background = false)
